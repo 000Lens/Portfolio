@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://www2.kek.jp/ilc/wp-content/uploads/2018/10/michinokaimei_img3.jpg) no-repeat;
+    background-size: cover;
+}
+.box{
+    width: 450px;
+    background: rgba(14, 0, 78, 0.521);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-weight: 100;
+}
+.box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.box p{
+    text-align: justify;
+    font-size: 10px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+}
+.box li a{
+    color: rgba(255, 187, 0, 0.856);
+    text-decoration: none;
+    font-size: 50px;
+    transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+    color: #00f7ff;
+}
